@@ -1,0 +1,2 @@
+Hola que tal, acá vayan haciendo los archivos de cada Usuario, ya sean los html, recursos (css o lo que ocupen). 
+Todo esto para que no se nos revuelva todo, si está mal ya veremos como lo cambiamos jiji.
