@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    max-width: 10000px;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.left-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-section img {
+    width: 120px;
+    height: auto;
+}
+
+.score-group-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.score-group {
+    color: #fff;
+    padding: 11px;
+    font-size: 2em;
+}
+
+.right-section {
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.right-section img {
+    width: 120px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.student-info {
+    text-align: right;
+    margin-left: auto; /* Hace que ocupe el espacio disponible a la izquierda */
+    margin-right: 10px; /* Márgenes para separar del resto de la interfaz */
+}
+
+
+.columna {
+    width: 120px;
+    height: 522px; /* 100% de la altura de la ventana */
+    max-height: 1000px;
+    background-color: #f0f0f0; /* Color de fondo de la columna */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imagen {
+    width: 80px; /* Ancho de las imágenes dentro de los cuadrados */
+    height: 80px; /* Altura de las imágenes dentro de los cuadrados */
+    margin: 10px; /* Espaciado entre las imágenes */
+}
